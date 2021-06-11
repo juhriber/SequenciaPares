@@ -12,7 +12,7 @@ namespace SequenciaPares
             valor = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
-            for (int i = 0; i < valor; i = i + 2)
+            for (int i = 0; i <= valor; i = i + 2)
             {
                 Console.Write($"{i} ");
             }
